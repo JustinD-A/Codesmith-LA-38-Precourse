@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+div {
+    display: block;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+}
+a {
+    margin: 5px;
+    text-decoration: none;
+}
+.header-links {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(95,95,104);
+    padding: 0px 2px 0px 3px;
+}
+.header-links:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    font-family: Arial, sans-serif;
+    padding: 8px 9px 8px 8px;
+    font-size: 14px;
+    color: rgb(95,95,104);
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.top {
+    top: 1px;
+    height: 7%;
+    width: 100%;
+    padding: 2px 22px 2px 9px;
+    display: inline-flex;
+    align-items: center;
+}
+.upper-left {
+    display: flex;
+    width: 50%;
+}
+.upper-right {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+}
+.bottom {
+    position: fixed;
+    bottom:0px;
+    height:6.5%;
+    padding: 1px 16px 5px 17px;
+    background-color: #f2f2f2;
+}
+.main {
+    height: 35%;
+    padding-top: 109px;
+}
+
+.search-bar-container-outside {
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 46px;
+    border: 1px solid #f2f2f2;
+    border-radius: 30px;
+}
+.search-bar-container-outside:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.search-bar-container-outside img {
+    margin: 0px 5px;
+}
+
+.buttons {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: rgb(88, 88, 88);
+    margin: 25px 11px 0px 11px;
+    padding: 0px 15px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #f2f2f2;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.buttons:hover {
+    border: 1px solid rgb(185, 185, 185);
+}
+#chrome-apps-icon-2020 {
+    opacity: 50%;
+    margin: 0px 5px 0 6px;
+}
+#chrome-apps-icon-2020:hover {
+    opacity: 90%;
+}
+#main-logo {
+    position: static;
+    bottom: 0px;
+}
+#search-bar {
+    width: 490px;
+    height: 33px;
+    margin: 0px 5px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    border: none;
+    outline: none;
+}
+#magnifying-glass {
+    opacity: 50%;
+}
+
+
+#sign-in {
+    font-family: Arial, sans-serif;
+    padding-bottom: 5px;
+    font-size: 13;
+    padding: 8 13 7 13;
+    margin-left: 8px;
+    background-color: rgb(67, 136, 226);
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+    box-shadow: none;
+    border: none;
+}
