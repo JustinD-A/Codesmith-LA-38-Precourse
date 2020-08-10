@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Login</title>
+  <script type='text/javascript' src='index.js'></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+	<!-- CODE HERE-->
+  <div class="login-box">
+    <div class="login-box-header">
+      <img name="instagram-logo" class="instagram-logo">
+    </div>
+    <div class="login-main">
+      <div class="username-container">
+        <p>Username:</p>
+        <input id="username-input" type="text" width="60">
+      </div>
+      <div class="password-container">
+        <p>Password:</p>
+        <input id="password-input" type="password" width="60">
+      </div>
+      <div class="forgot-and-login-container">
+        <a class="forgot-link left">Forgot your password?</a>
+        <input id="login-button" onclick="checkUsernamePasswordCombo();" type="submit" class="login-button" value="Log In">
+      </div>
+    </div>
+  </div>
+
+  <div class="under-login-container">
+    <p><strong>Need an account?</strong><br>Download the app to sign up.</p>
+    <div class="button-container">
+      <input type="submit" class="apple">
+      <input type="submit" class="google">
+    </div>
+  </div>
+
+
+</body>
+</html>

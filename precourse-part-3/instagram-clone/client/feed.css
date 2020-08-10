@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+body {
+    margin: 0 0;
+}
+.header-box {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.home-button{
+    position: relative;
+    height: 100%;
+    width: auto;
+
+}
+.instagram-logo-box{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.user-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-profile-picture-box {
+    width: 20px;
+    height: 20px;
+}
+.user-container p {
+    font-weight: bold;
+    color: white;
+}
+.main-body {
+    top: 5%;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    position: relative;
+
+}
+.left-bar {
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+.feed {
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-bar {
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+.feed-element{
+    width: 80%;
+    min-height: 200px;
+
+}
+.feed-element-image-box{
+    width: 100%;
+    height: 300px;
+}
+.image-footer-box{
+
+}
+.like-button{
+
+}
+.like-list{
+
+}
+.element-options{
+
+}
+.feed-element-text-box{
+
+}
+.post-user-icon{
+
+}
+.post-text{
+
+}
