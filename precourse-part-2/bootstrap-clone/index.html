@@ -1,13 +1,126 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Google Page</title>
+  <title>Bootstrap Clone</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<!-- CODE HERE-->
+  <!--       ----------------banner----------------------             -->
+	<div class="banner-menu">
+    <div id="banner-box-left" class="links-box left banner-box">
+      <a><img src="Bootstrap-icon.png" name="bootstrap-icon" id="bootstrap-icon"></a>
+      <a><strong>Home</strong></a>
+      <a>Documentation</a>
+      <a>Examples</a>
+      <a>Icons</a>
+      <a>Themes</a>
+      <a>Expo</a>
+      <a>Blog</a>
+      
+    </div>
+    <div id="banner-box-right" class="links-box right">
+      <a>link</a>
+      <a>link</a>
+      <a>link</a>
+      <a>link</a>
+    </div>
+  </div>
+  <!--       ----------------main section----------------------             -->
+  <div class="main">
+    <div class="primary-offer-box">
+      <div class="primary-offer left">
+        <h1>Build fast, responsive sites with Bootstrap</h1>
+        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      </div>
+      
+      <div class="primary-offer-image-box left">
+        <img class="primary-offer-image left" src="bootstrap-stacked-icon.png">
+      </div>
+    </div>
+   
+    <div class="primary-offer-button-box">
+      <input type="submit" class="primary-offer-button" value="click here">
+      <input type="submit" class="primary-offer-button" value="click here">
+      <p>Button description</p>
+    </div>
+    
+    <div class="secondary-offer-box">
+      <div class="secondary-offer left">
+        <img class="app-image" src="bootstrap-html-icon.png" height="40" width="40">
+        <h2>Installation</h2>
+        <h3>Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.</h3>
+        <p>Package managed installs don’t include documentation or our full build scripts. You can also use our npm template repo to quickly generate a Bootstrap project via npm.</p>
+        <input type="submit" value="click here" class="secondary-offer-button">
+      </div>
+      <div class="secondary-offer-image-box">
+        <div class="secondary-offer-code">
+          <p># Via npm<br>npm install bootstrap<br><br># Via gem<br>gem install bootstrap -v 4.5.1</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="secondary-offer-box">
+      <div class="secondary-offer left">
+        <img class="app-image" src="bootstrap-cloud-icon.png" height="40" width="40">
+        <h2>BootstrapCDN</h2>
+        <h3>When you only need to include Bootstrap’s compiled CSS or JS, you can use BootstrapCDN.</h3>
+        <p>See it in action with our simple starter template, or browse the examples to jumpstart your next project.</p>
+        <input type="submit" value="click here" class="secondary-offer-button">
+      </div>
+      <div class="secondary-offer-image-box left">
+        <div class="secondary-offer-code">
+          <pre>
+&lt;!-- CSS only --&gt;
+&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous"&gt;
+            
+&lt;!-- JS, Popper.js, and jQuery --&gt;
+&lt;script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"&gt;&lt;/script&gt;
+          </pre>
+        </div>
+      </div>
+    </div>
+
+    <div class="secondary-offer-box">
+      <div class="secondary-offer left">
+        <img class="app-image" src="bootstrap-icons-icon.png" height="40" width="40">
+        <h2>Bootstrap Icons</h2>
+        <h3>For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.</h3>
+        <p>Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any project. They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and can be styled with CSS.</p>
+        <input type="submit" value="click here" class="secondary-offer-button">
+      </div>
+      <div class="secondary-offer-image-box left">
+        <img class="secondary-offer-image" src="bootstrap-icons-in-back.png">
+      </div>
+    </div>
+
+    <div class="secondary-offer-box">
+      <div class="secondary-offer left">
+        <img class="app-image" src="bootstrap-themes-icon.png" height="40" width="40">
+        <h2>Official Themes</h2>
+        <h3>Take Bootstrap to the next level with premium themes from the official Bootstrap Themes marketplace.</h3>
+        <p>Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build tools.</p>
+        <input type="submit" value="click here" class="secondary-offer-button">
+      </div>
+      <div class="secondary-offer-image-box left">
+        <img class="secondary-offer-image" src="bootstrap-themes.png">
+      </div>
+    </div>
+  </div>
+  <!--       ----------------footer----------------------             -->
+  <div class="footer">
+    <div class="links-box">
+      <a>GitHub</a> 
+      <a>Twitter</a> 
+      <a>Examples</a>
+      <a>About</a>
+    </div>
+    <p>Designed and built with all the love in the world by the <span><strong>Bootstrap team</strong></span> with the help of <span><strong>our contributors</strong></span>.
+      <br>
+      Currently v4.5.1. Code licensed <span><strong>MIT</strong></span>, docs <span><strong>CC BY 3.0</strong></span>.</p>
+  </div>
 
 
 
@@ -15,3 +128,4 @@
 
 </body>
 </html>
+
